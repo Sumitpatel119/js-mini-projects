@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+     
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <title> Regisration Form </title>
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Industry Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Company Name</label>
+                            <input type="text" placeholder="Enter your comapny name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Established In</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Official Email</label>
+                            <input type="text" placeholder="Enter official comapany email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter Password" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Sector</label>
+                            <select required>
+                                <option disabled selected>Select Sector</option>
+                                <option>Private</option>
+                                <option>Government</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Field</label>
+                            <select required>
+                                <option disabled selected>Select Field</option>
+                                <option>Waste Producer</option>
+                                <option>Waste Consumer</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Authentication Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Type of Industry</label>
+                            <input type="text" placeholder="Enter type" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Licence Number</label>
+                            <input type="number" placeholder="Enter Licence number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Issued Authority</label>
+                            <input type="text" placeholder="Enter issued authority" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>City</label>
+                            <input type="text" placeholder="Enter City" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Licence Issued Date</label>
+                            <input type="date" placeholder="Enter Licence date" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <input type="text" placeholder="Permanent or Temporary" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ward Number</label>
+                            <input type="number" placeholder="Enter ward number" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Waste Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Waste Type</label>
+                            <input type="text" placeholder="Enter type of waste produced" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Recyclable Waste</label>
+                            <input type="text" placeholder="Yes / No" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Waste management System </label>
+                            <input type="text" placeholder="Yes / No" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Production Time</label>
+                            <input type="text" placeholder="Yearly/Weekly" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Quality Assurance</label>
+                            <input type="text" placeholder="Yes / No" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Storage Availability</label>
+                            <input type="text" placeholder="Yes / No" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
